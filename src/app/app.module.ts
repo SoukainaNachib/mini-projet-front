@@ -22,6 +22,7 @@ import { ShowCommentComponent } from './components/md-comment/show-comment/show-
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { IntroComponent } from './components/intro/intro.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     ShowCommentComponent,
     NavbarComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,
