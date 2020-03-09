@@ -19,6 +19,9 @@ import { ListCommentComponent } from './components/md-comment/list-comment/list-
 import { AddCommentComponent } from './components/md-comment/add-comment/add-comment.component';
 import { EditCommentComponent } from './components/md-comment/edit-comment/edit-comment.component';
 import { ShowCommentComponent } from './components/md-comment/show-comment/show-comment.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { ShowCommentComponent } from './components/md-comment/show-comment/show-
     ListCommentComponent,
     AddCommentComponent,
     EditCommentComponent,
-    ShowCommentComponent
+    ShowCommentComponent,
+    NavbarComponent,
+    FooterComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
