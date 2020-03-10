@@ -21,9 +21,9 @@ import { EditCommentComponent } from './components/md-comment/edit-comment/edit-
 import { ShowCommentComponent } from './components/md-comment/show-comment/show-comment.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
