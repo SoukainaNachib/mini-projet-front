@@ -21,8 +21,9 @@ import { EditCommentComponent } from './components/md-comment/edit-comment/edit-
 import { ShowCommentComponent } from './components/md-comment/show-comment/show-comment.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { IntroComponent } from './components/intro/intro.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+
 
 @NgModule({
   declarations: [
@@ -45,8 +46,8 @@ import { IntroComponent } from './components/intro/intro.component';
     ShowCommentComponent,
     NavbarComponent,
     FooterComponent,
-    SidebarComponent,
-    IntroComponent
+    IntroComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
