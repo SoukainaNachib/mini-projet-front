@@ -23,6 +23,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { IntroComponent } from './components/intro/intro.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { IntroComponent } from './components/intro/intro.component';
     NavbarComponent,
     FooterComponent,
     SidebarComponent,
-    IntroComponent
+    IntroComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
