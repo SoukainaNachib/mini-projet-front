@@ -24,6 +24,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -52,7 +54,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
